@@ -2,54 +2,49 @@
 #include <unistd.h>
 
 int main() {
-    char harf, harf2, harf3, harf4, harf5, ah1,ah2,ah3,ah4,ah5;
+    char ch1, ch2, ch3, ch4, ch5, ch6, ch7, ch8, ch9, ch10;
 
-    for (harf = 'a'; harf <= 'h'; harf++) {
-        printf("\n%c ", harf);
+    for (ch1 = 'a'; ch1 <= 'h'; ch1++) {
+        printf("\n%c ", ch1);
         usleep(100000); 
     }
-    for (harf2 = 'a'; harf2 <= 'e'; harf2++) {
-        printf("\nh%c ", harf2);
+    for (ch2 = 'a'; ch2 <= 'e'; ch2++) {
+        printf("\nh%c ", ch2);
         usleep(110000); 
     }
-    for (harf3 = 'a'; harf3 <= 'l'; harf3++) {
-        printf("\nhe%c ", harf3);
+    for (ch3 = 'a'; ch3 <= 'l'; ch3++) {
+        printf("\nhe%c ", ch3);
         usleep(120000); 
     }
-    for (harf4 = 'a'; harf4 <= 'l'; harf4++) {
-        printf("\nhel%c ", harf4);
-        usleep(130000);
+    for (ch4 = 'a'; ch4 <= 'l'; ch4++) {
+        printf("\nhel%c ", ch4);
+        usleep(130000); 
     }
-    for (harf5 = 'a'; harf5 <= 'o'; harf5++) {
-        printf("\nhell%c ", harf5);
+    for (ch5 = 'a'; ch5 <= 'o'; ch5++) {
+        printf("\nhell%c ", ch5);
         usleep(140000); 
     }
-
-
-    for (ah1 = 'a'; ah1 <= 'w'; ah1++) {
-        printf("\nhello %c ", ah1);
-        usleep(150000);
+    
+    for (ch6 = 'a'; ch6 <= 'w'; ch6++) {
+        printf("\nhello %c ", ch6);
+        usleep(150000); 
     }
-        for (ah2 = 'a'; ah2 <= 'o'; ah2++) {
-        printf("\nhello w%c ", ah2);
+        for (ch7 = 'a'; ch7 <= 'o'; ch7++) {
+        printf("\nhello w%c ", ch7);
         usleep(160000); 
     }
-        for (ah3 = 'a'; ah3 <= 'r'; ah3++) {
-        printf("\nhello wo%c ", ah3);
-        usleep(170000);
+        for (ch8 = 'a'; ch8 <= 'r'; ch8++) {
+        printf("\nhello wo%c ", ch8);
+        usleep(170000); 
     }
-        for (ah4 = 'a'; ah4 <= 'l'; ah4++) {
-        printf("\nhello wor%c ", ah4);
-        usleep(170000);
+        for (ch9 = 'a'; ch9 <= 'l'; ch9++) {
+        printf("\nhello wor%c ", ch9);
+        usleep(170000); 
     }
-        for (ah5 = 'a'; ah5 <= 'd'; ah5++) {
-        printf("\nhello worl%c ", ah5);
-        usleep(190000);
+        for (ch10 = 'a'; ch10 <= 'd'; ch10++) {
+        printf("\nhello worl%c ", ch10);
+        usleep(190000); 
     }
     
-
-    
-
-
     return 0;
 }
